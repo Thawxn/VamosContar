@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(-45deg, rgb(41, 30, 54), rgb(57, 22, 90), rgb(40, 8, 116), rgb(23, 0, 156));
+}
+/*cabeçalho do site*/
+header{
+    height: 10vh;
+}
+header h1{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 15vh;
+    text-transform: uppercase;
+}
+/*corpo do site*/
+section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#body-area{
+    background-color: #fff;
+    padding: 15px 25px;
+    width: 35vw;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+#dados{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+#resul p{
+    font-size: 15px;
+    font-weight: 600;
+}
+#dados #star,
+#end,
+#step{
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+#botton{
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(-45deg, rgb(41, 30, 54), rgb(57, 22, 90), rgb(40, 8, 116), rgb(23, 0, 156));
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 10px #000;
+    border: 0;
+    cursor: pointer;
+
+
+}
+
+/*rodapé do site*/
+footer{
+    height: 10vh;
+    color: #999;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 12px;
+}
